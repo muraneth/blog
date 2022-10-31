@@ -1,28 +1,28 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '8dd13d98b4564ac197c689c1e209c46c',
+  rootNotionPageId: 'Muran-me-8725e90fdf1f48048af09d6ddd5d9a1e',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '64134182-9784-44e1-94b7-176e42f4d54e',
+  rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: "James Tsang's Blog",
-  domain: 'zwt.one',
-  author: 'James Tsang',
+  name: "Muran's Blog",
+  domain: 'muran.me',
+  author: 'muran',
 
   // open graph metadata (optional)
-  description: "James Tsang's Blog",
-  socialImageTitle: 'James Tsang',
+  description: "Muran's Blog",
+  socialImageTitle: 'Muran',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'JamesTsang19',
-  github: 'jtsang4',
+  twitter: 'muran_eth',
+  github: 'muraneth',
   // linkedin: '',
 
   // RSS
-  rss: 'https://zwt.one/feed',
+  // rss: 'https://zwt.one/feed',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -35,7 +35,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'jtsang4/blog',
+  utterancesGitHubRepo: 'muraneth/blog',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
